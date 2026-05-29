@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+<figure class="avatar-box">
+  <!-- Menambahkan bg-transparent agar latar belakangnya tembus pandang -->
+  <img src="./assets/images/profile.png" alt="" width="80" style="background: transparent;">
+</figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Tiyas Tasya</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">tiyastasya@gmail<br>.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+62 877-224-9704</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">2 januari, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ciater, Tanggerang Selatan</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=61574696545948" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/TiyasTasya" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/_____________ty45" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+<article class="about active" data-page="about">
+
+  <header>
+    <h2 class="h2 article-title">Tentang Saya</h2>
+  </header>
+
+  <section class="about-text">
+    <p>
+      Saya adalah seorang Full-Stack Web Developer yang berfokus pada pembangunan sistem informasi berbasis website dan pengelolaan basis data. Saya memiliki spesialisasi dalam mentransformasikan proses bisnis yang kompleks menjadi solusi digital yang fungsional, terstruktur, dan mudah digunakan.
+    </p>
+
+    <p>
+      Fokus utama saya adalah merancang aplikasi website yang tidak hanya memiliki performa optimal dan aman, tetapi juga menyajikan antarmuka yang intuitif bagi pengguna. Dengan pendekatan yang adaptif dan berbasis data, saya berkomitmen untuk menyampaikan identitas serta nilai proyek Anda melalui arsitektur kode yang bersih dan standar pengembangan modern.
+    </p>
+  </section>
+
+  <!--
+    - service
+  -->
+
+  <section class="service">
+
+    <h3 class="h3 service-title">Fokus Layanan</h3>
+
+    <ul class="service-list">
+
+      <li class="service-item">
+
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-design.svg" alt="web design icon" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">UI/UX & Web Design</h4>
+
+          <p class="service-item-text">
+            Perancangan antarmuka website yang modern, estetis, dan responsif untuk memastikan pengalaman pengguna yang optimal di berbagai perangkat.
+          </p>
+        </div>
+
+      </li>
+
+      <li class="service-item">
+
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Web Development</h4>
+
+          <p class="service-item-text">
+            Pengembangan sistem informasi dan aplikasi berbasis web yang dinamis, aman, serta memiliki performa tinggi menggunakan teknologi terkini.
+          </p>
+        </div>
+
+      </li>
+
+      <li class="service-item">
+
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-app.svg" alt="database icon" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Database Management</h4>
+
+          <p class="service-item-text">
+            Perancangan arsitektur basis data yang terstruktur dan efisien untuk mendukung integrasi serta pengolahan data sistem skala dinamis.
+          </p>
+        </div>
+
+      </li>
+
+      <li class="service-item">
+
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-photo.svg" alt="optimization icon" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Optimization & SEO</h4>
+
+          <p class="service-item-text">
+            Analisis teknis dan optimasi performa website guna meningkatkan kecepatan akses serta visibilitas pada mesin pencari secara maksimal.
+          </p>
+        </div>
+
+      </li>
+
+    </ul>
+
+  </section>
+
+
+<!--
+  - testimonials
+-->
+
+<section class="testimonials">
+
+  <h3 class="h3 testimonials-title">Testimoni</h3>
+
+  <ul class="testimonials-list has-scrollbar">
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Budi Santoso" width="60" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Budi Santoso</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Sangat puas dengan sistem informasi internal yang dibangun. Arsitektur basis datanya sangat terstruktur, membuat proses manajemen inventaris di klinik kami menjadi jauh lebih cepat, efisien, dan bebas dari redudansi data.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-2.png" alt="Siti Rahmawati" width="60" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Siti Rahmawati</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Aplikasi web yang dikembangkan memiliki performa yang sangat optimal dan responsif. Penggabungan visual yang estetis dengan sistem backend yang kokoh membuat operasional harian tim kami terbantu secara signifikan.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-3.png" alt="Hendrawan" width="60" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Hendrawan</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Komunikasi selama tahap pengembangan berjalan sangat profesional. Mampu menerjemahkan kebutuhan alur bisnis kami yang rumit menjadi sebuah platform website yang fungsional, aman, dan mudah dioperasikan oleh staf awam.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-4.png" alt="Dewi Lestari" width="60" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Dewi Lestari</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Kode yang dihasilkan sangat bersih dan terstruktur dengan standar modern, memudahkan tim internal kami jika ingin melakukan pengembangan fitur lanjutan di kemudian hari. Sangat direkomendasikan untuk proyek sistem informasi.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+<!--
+  - clients
+-->
+
+<section class="clients">
+
+  <h3 class="h3 clients-title">Klien & Kemitraan</h3>
+
+  <ul class="clients-list has-scrollbar">
+
+    <li class="clients-item">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/images/kemenkes.png" alt="Kementerian Kesehatan RI">
+      </a>
+    </li>
+
+    <li class="clients-item">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/images/telkom.png" alt="Telkom Indonesia">
+      </a>
+    </li>
+
+    <li class="clients-item">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/images/tokopedia.png" alt="Tokopedia">
+      </a>
+    </li>
+
+    <li class="clients-item">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/images/bni.png" alt="Bank Negara Indonesia">
+      </a>
+    </li>
+
+    <li class="clients-item">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/images/Pertamina.png" alt="Pertamina">
+      </a>
+    </li>
+
+    <li class="clients-item">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/images/kopi-jago.png" alt="Jago Coffee">
+      </a>
+    </li>
+
+  </ul>
+
+</section>
+
+</article>
+
+
+
+
+
+<!--
+  - #RESUME
+-->
+
+<article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Pendidikan</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">Universitas Pamulang</h4>
+
+        <span>2022 — Sekarang</span>
+
+        <p class="timeline-text">
+          Mahasiswa aktif program studi S1 Sistem Informasi. Berfokus pada pengembangan aplikasi web (Full-Stack Web Development), manajemen basis data, analisis sistem bisnis, serta implementasi kecerdasan buatan untuk pengolahan data.
+        </p>
+
+      </li>
+
+    </ol>
+
+  </section>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="briefcase-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Pengalaman Proyek & Praktik</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">Full-Stack Developer (Kerja Praktek) — UPK Kementerian Kesehatan RI</h4>
+
+        <span>2025</span>
+
+        <p class="timeline-text">
+          Merancang dan membangun aplikasi website Pejabat Pengelola Informasi dan Dokumentasi (PPID) untuk Unit Pelayanan Kesehatan Kemenkes. Bertanggung jawab atas arsitektur backend, manajemen basis data, fitur pelacakan dokumen, serta optimasi antarmuka sistem.
+        </p>
+
+      </li>
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">Pelaksana Pengabdian Kepada Masyarakat (PKM) — SMK Putra Pertiwi</h4>
+
+        <span>April 2025</span>
+
+        <p class="timeline-text">
+          Menjadi bagian dari tim pelaksana dalam memberikan edukasi dan pelatihan bertema "Desain Grafis Berbasis AI untuk Mempersiapkan Generasi Kreatif di Era Digital" guna meningkatkan kesiapan kompetensi teknologi bagi siswa-siswi.
+        </p>
+
+      </li>
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">Independent Web Project — Sistem Keuangan Kelas 07SIFE003</h4>
+
+        <span>2026</span>
+
+        <p class="timeline-text">
+          Mengembangkan platform web Laporan Pemasukan Uang Kas untuk manajemen internal kelas. Mengimplementasikan fungsi kalkulasi saldo otomatis, validasi kontribusi berkala, serta fitur ekspor laporan ke format dokumen PDF secara dinamis.
+        </p>
+
+      </li>
+
+    </ol>
+
+  </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+<!--
+  - #BLOG
+-->
+
+<article class="blog" data-page="blog">
+
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+
+  <section class="blog-posts">
+
+    <ul class="blog-posts-list">
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-1.jpg" alt="Panduan SEO Modern untuk Website" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">SEO</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2026-05-15">15 Mei 2026</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Strategi Optimasi SEO On-Page dan Efektivitas Domain di Era Modern</h3>
+
+            <p class="blog-text">
+              Mengulas relevansi penggunaan struktur tag heading h1 yang tepat serta pengaruh taktik kata kunci domain terhadap algoritma mesin pencari saat ini.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-2.jpg" alt="Integrasi Laravel dan Filament Panel" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Development</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2026-04-10">10 Apr 2026</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Membangun Dashboard Admin Cepat Menggunakan Filament PHP</h3>
+
+            <p class="blog-text">
+              Cara praktis memanfaatkan ekosistem Laravel dan Filament untuk mempercepat pembuatan modul manajemen data berskala dinamis dengan arsitektur kode yang bersih.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-3.jpg" alt="Analisis Data K-Means dan DBSCAN" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Data Science</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2026-01-18">18 Jan 2026</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Eksplorasi Algoritma Clustering Menggunakan Orange Data Mining</h3>
+
+            <p class="blog-text">
+              Penerapan metode K-Means dan DBSCAN untuk proses klasterisasi data mentah secara visual guna menemukan pola data yang akurat dan berharga.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-4.jpg" alt="Manajemen Basis Data Relasional" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Database</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2025-11-05">05 Nov 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Tips Merancang Skema Database SQL untuk Sistem Inventaris</h3>
+
+            <p class="blog-text">
+              Menyusun relasi tabel data yang optimal guna menghindari redudansi, memastikan integritas transaksi, serta mempercepat waktu respon kueri sistem.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-5.jpg" alt="Alur Pengujian Perangkat Lunak" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">QA Testing</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2025-09-22">22 Sep 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Pentingnya Dokumentasi Laporan Pengujian dalam Tim Pengembang</h3>
+
+            <p class="blog-text">
+              Menganalisis peran laporan pengujian yang detail dan berbasis bukti untuk mencegah miskomunikasi teknis dan mempercepat siklus perbaikan bug sistem.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-6.jpg" alt="Keamanan Aplikasi Web" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Security</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2025-08-14">14 Ags 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Langkah Dasar Mengamankan Endpoint API dari Serangan Luar</h3>
+
+            <p class="blog-text">
+              Menerapkan metode validasi data input, sanitasi string kueri, serta pembatasan akses token untuk menjaga kerahasiaan pertukaran data aplikasi.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+<!--
+  - #CONTACT
+-->
+
+<article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Kontak</h2>
+  </header>
+
+  <section class="mapbox" data-mapbox>
+    <figure>
+      <!-- Peta telah diubah menuju lokasi Universitas Pamulang (UNPAM) Kampus Viktor, Tangerang Selatan -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.5513233215266!2d106.6908359747514!3d-6.322525193666755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e54ff50d8b77%3A0x6bcf12ddc225091e!2sUniversitas%20Pamulang%20Kampus%20Viktor!5e0!3m2!1sid!2sid!4v1717000000000!5m2!1sid!2sid"
+        width="400" height="300" loading="lazy" style="border:0;"></iframe>
+    </figure>
+  </section>
+
+  <section class="contact-form">
+
+    <h3 class="h3 form-title">Formulir Kontak</h3>
+
+    <form action="#" class="form" data-form>
+
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Nama Lengkap" required data-form-input>
+
+        <input type="email" name="email" class="form-input" placeholder="Alamat Email" required data-form-input>
+      </div>
+
+      <textarea name="message" class="form-input" placeholder="Pesan Anda" required data-form-input></textarea>
+
+      <button class="form-btn" type="submit" disabled data-form-btn>
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Kirim Pesan</span>
+      </button>
+
+    </form>
+
+  </section>
+
+</article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
